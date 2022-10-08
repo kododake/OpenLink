@@ -1,3 +1,4 @@
 function Load(){
-    window.location.href = document.getElementById("url").value;
+    const textbox = document.getElementById("url");
+    window.location.href = textbox.value;
 }
